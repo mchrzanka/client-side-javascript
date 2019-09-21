@@ -10,6 +10,8 @@ Selectors allow you to grab a piece or pieces of markup from the html page your 
 + querySelector()
 + querySelectorAll()
 
+In CPSC1520 your more than likely to gravitate to using querySelector(). However you need to be aware of all of the DOM level selector becaues there are times when each one of them is more apropriate for certain coding solutions.
+
 
 ### Resources
 

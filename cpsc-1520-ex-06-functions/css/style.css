@@ -1,0 +1,21 @@
+.site-nav{
+    box-shadow: 0 0 5px 0 grey;
+    padding: 1rem;
+}
+/* container class for my ui */
+.products{
+   display:flex;
+   justify-content: center;
+}
+.product{
+    padding: 0.5rem 1rem;
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 6px;
+    margin: 0 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    user-select:none;
+}
+.product:hover{
+    background:rgb(247, 247, 247);
+}

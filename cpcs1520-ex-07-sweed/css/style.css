@@ -1,0 +1,66 @@
+.site-nav{
+    box-shadow:  0 0 5px 0 grey;
+    padding:0.5rem 1rem;
+    position: relative;
+}
+
+.icon-view{
+    display:flex;
+    justify-content: space-between;
+}
+
+/* 
+------------------------------------------------
+  Quote Container
+------------------------------------------------
+*/
+.quote{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem auto;
+    max-width: 620px;
+  
+  
+}
+
+.options{
+   padding: 1rem;
+   width:100%;
+}
+.options div{
+    margin-bottom: 1.5rem;
+}
+
+ 
+.output img{
+    max-width:320px;
+}
+
+
+/* 
+ UI Style Class For Components (form elements)
+*/
+
+.ui-style{
+    display:block;
+    font-size: 1.125rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #666;
+    margin:0;
+    border:none;
+    box-shadow: 0 0 5px 0 grey;
+    border-radius: 0.5rem;
+    appearance: none;
+    background: linear-gradient(to bottom, rgb(221, 221, 221), rgb(240, 240, 240));
+}
+.ui-select{
+    background-image: url('../img/icons/down-arrow.svg'), linear-gradient(to bottom, rgb(221, 221, 221), rgb(240, 240, 240));
+
+    background-repeat: no-repeat, repeat;
+    background-position: right 0.7rem top 50%, 0 0;
+    background-size: 0.65rem auto, 100%;
+}

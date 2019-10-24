@@ -43,4 +43,22 @@ body {
   font-weight: 600;
   background: linear-gradient(to top, rgba(255, 99, 71, 0.39), rgba(255, 99, 71, 0.644))
 }
- 
+.display{
+  padding: 0.5rem;
+}
+ .array-item{
+   box-shadow: 0 0 3px 0 grey;
+   padding: 0.5rem;
+   width: 100%;
+   list-style-type: none;
+   display:flex;
+   justify-content: space-between;
+   align-items:center;
+ }
+ .array-item:hover{
+   background:rgb(219, 219, 219);
+ }
+ .remove-icon{
+   width: 0.75rem;
+   opacity: 0.5;
+ }

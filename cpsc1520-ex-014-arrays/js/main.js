@@ -1,56 +1,58 @@
- /* 
-      Application Scope
+/* 
+      Aplication Scope
+*/
 
-      // push()
-      // pull()
- */
+window.addEventListener('load', function(e){
+  //application scope
+  const saveButton = document.querySelector('button');
+  const dataArray = [];
+  const imageUrl = 'img/icons/remove.svg';
+  const itemDisplay = document.querySelector('ul');
 
- window.addEventListener('load', function(e){
-   // application scope
-   const dataArray = [];
-   const saveButton = document.querySelector('button');
-   const removeIconUrl = 'img/icons/remove.svg'
-   const itemsList = document.querySelector('.array-items')
-   
+  saveButton.addEventListener('click', function(e){
+    // handle saving data
+    const data = document.querySelector('input').value.trim();
+    console.log(data)
+    if(data !== ""){
+          dataArray.push(data);
+           updateDisplay(data)
+    }
+  })//end of save button event
+
+  function updateDisplay(data){
+    // create a node (elem, markup)
+    // create li
+    const newListItem = document.createElement('li');
+    newListItem.dataset.index = dataArray.length -1;
+    // add the submitted text to the li
+     newListItem.textContent = data;
+    // add the class .array-item
+    newListItem.classList.add('array-item');
+    
+
+    // create img
+    const newImage = document.createElement('img');
+    newImage.addEventListener('click', onRemoveItem);
+    // add the src for the image img/icons/remove.svg
+    newImage.src = imageUrl
+    // add class .remove-icon
+    newImage.classList.add('remove-icon')
+
+    // add the img to li
+    newListItem.appendChild(newImage)
+    // add li to the ul
+    itemDisplay.appendChild(newListItem)
+    console.log(itemDisplay)
+
+  }// end of set display
+
+  function onRemoveItem(e){
+    // which element in a group is being clicked
+    console.log(e.target.parentNode.dataset.index)
+    console.table(dataArray)
+  }
+
+
+})// NO CODE OUTSIDE OF HERE
+
  
-   saveButton.addEventListener('click', function(e){
-     // here load in the value of the input
-     const fieldData = document.querySelector('input').value.trim();
-    if (fieldData !== ""){
-      // add data to the array...
-      dataArray.push(fieldData)
-      setDisplay(fieldData);
-    }
-    function setDisplay(data){
-        // create list item
-        const newListItem = document.createElement('li')
-        // add the data text to the list item
-        newListItem.textContent = data;
-      
-        // add the .array-item class
-        newListItem.classList.add('array-item')
-       
-        // add data atribute
-        newListItem.dataset.index = dataArray.length -1
-     
-
-        // create an image
-           const newImage = document.createElement('img')
-           newImage.addEventListener('click', onRemoveItem)
-        // add the image src
-        newImage.src = removeIconUrl;
-        // add the remove-icon class
-        newImage.classList.add('remove-icon');
-        newListItem.appendChild(newImage)
-        itemsList.appendChild(newListItem)
-      
-    }
-
-     function onRemoveItem (e){
-        console.log(e.target.parentNode.dataset.index)
-        console.log(itemsList.children)
-     }
-   })
-
-   
- })//DO NOT ADD CODE AFTER THIS 

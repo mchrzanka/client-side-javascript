@@ -18,6 +18,13 @@ In JavasScript an object is a collection of properties with associated values. T
 1. Object.enteries()
 
 
+## To Do List
+1. Fill out the form fields and check that all data is valid
+2. Create errors for fields that don't contain data
+3. If fields valid create data object add it to todo list array.
+4. Create a function that builds the DOM from the todo list array.
+
+
 
 ## Resources
 1.[Working With Objects MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)

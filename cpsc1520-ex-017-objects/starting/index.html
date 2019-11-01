@@ -20,7 +20,13 @@
             <form class="to-do">
             <div class="control to-do">
               <label>Enter To Do</label>
-              <input id="to-do" type="text" placeholder="search term" />
+               
+               
+                <input id="to-do" type="text" placeholder="search term" />
+                 <div class="field-error">
+                   <img class="error-icon" src="img/icons/error.svg" alt="">
+                    <span>some type of error</span>
+                 </div>
             </div>
 
             <div class="control to-do">
@@ -29,11 +35,19 @@
                 <option value="school" >school</option>
                 <option value="household">household</option>
               </select>
+               <div class="field-error hidden">
+                   <img class="error-icon" src="img/icons/error.svg" alt="">
+                    <span>some type of error</span>
+                 </div>
             </div>
 
             <div class="control to-do">
               <label>Time in 1/4 hour increments</label>
               <input id="to-do" type="number" step="0.25" value="0.25"/>
+              <div class="field-error">
+                    <img class="error-icon" src="img/icons/error.svg" alt="">
+                    <span>some type of error</span>
+                 </div>
             </div>
 
             <div class="control">
@@ -51,7 +65,7 @@
         </aside>
       </div>
     </main>
-    <script src="js/data.js"></script>
+   
     <script src="js/main.js"></script>
   </body>
 </html>

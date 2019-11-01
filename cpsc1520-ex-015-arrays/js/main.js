@@ -1,32 +1,28 @@
 /* 
       Aplication Scope
-      adding removing replacing copying moving
-      elements in the dom
-       Node not Element
 */
 
 window.addEventListener('load', function(e){
+ 
   //application scope
   const saveButton = document.querySelector('button');
   const dataArray = [];
   const imageUrl = 'img/icons/remove.svg';
-  const itemDisplay = document.querySelector('.array-items');
-  
- 
+  const itemDisplay = document.querySelector('ul');
+
   saveButton.addEventListener('click', function(e){
     // handle saving data
     const data = document.querySelector('input').value.trim();
-   
+ 
     if(data !== ""){
           dataArray.push(data);
-          // nodes
            updateDisplay(data)
     }
   })//end of save button event
 
   function updateDisplay(data){
     // create a node (elem, markup)
-    // create li node
+    // create li
     const newListItem = document.createElement('li');
     newListItem.dataset.index = dataArray.length -1;
     // add the submitted text to the li
@@ -47,30 +43,25 @@ window.addEventListener('load', function(e){
     newListItem.appendChild(newImage)
     // add li to the ul
     itemDisplay.appendChild(newListItem)
-   
+ 
 
   }// end of set display
 
   function onRemoveItem(e){
-    // which element in a group is being clicked
-     const removeThisItem = e.target.parentNode.dataset.index;
-    // how will we select the ul > li
-    const items = itemDisplay.querySelectorAll('li');
-      items.forEach((item, index)=>{
-        // check for a match item.dataset.index vs removeThisItem
-   
-        if( item.dataset.index  === removeThisItem){
-          // remove the item from the DOM
-          itemDisplay.removeChild(item)
-          // remove item from the data array
-          dataArray.splice(removeThisItem,1); 
-        }
-      })
-      
-      console.log(dataArray)
-      itemDisplay.querySelectorAll('li').forEach((item,index)=>{
-        item.dataset.index = index
-      })
+    const removeItem = e.target.parentNode.dataset.index;
+    const domItem =     itemDisplay.querySelectorAll('li')
+     console.log(dataArray)
+ 
+    itemDisplay.removeChild(domItem[removeItem]);
+     const updatedList = (itemDisplay.children)
+     console.log()
+     itemDisplay.querySelectorAll("li").forEach((item, index) => {
+       console.log(item.dataset.index);
+       item.dataset.index = index;
+       dataArray.splice(removeItem,1)
+     });
+     
+    console.log("AFFTER CUTTIN " + dataArray);
   }
 
 

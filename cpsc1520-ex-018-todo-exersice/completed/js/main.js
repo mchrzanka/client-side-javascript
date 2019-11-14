@@ -1,50 +1,31 @@
- /* 
-   To Do List App
- */
-window.addEventListener('load', function(e){
- // data array will contain entries data Objects
- const dataArray=[];
- const toDoForm = document.querySelector('.to-do');
+window.addEventListener("load", e=>{
+ const todoListItems = [];
+ const toDoForm = document.querySelector('form');
  toDoForm.addEventListener('submit', function(e){
-      e.preventDefault();
-      // validate function is sent the from DOM object
-      const toDoItem = validate(e.target);
-     if(toDoItem.valid){
-         console.log("do dom stuff")
-     }else{
-         console.log("do error stuff")
-     }
-  })// close submit event
-
-  function validate(formData){
-    // validate each form field
-    let errors = 0;
-    const dataObject = {};
-    const errorObject = {}
-     
-
-    if(formData.elements.todo.value.trim() === ""){
-        errorObject.message ="please enter a to do item";
-        errorObject.item = formData.elements.todo
-        errors ++;
-    }else{
-        dataObject.value = formData.elements.todo.value;
-        dataObject.item = formData.elements.todo
+     e.preventDefault();
+ 
+    const toDo = validateToDo(e.target)
+    if(toDo.valid){
+      addToDoItem(toDo);
     }
+ })
 
+ function addToDoItem(item){
 
-    // check the errors == 0 no errors
-    // errors > 0 something went wrong
-    if(errors === 0){
-        dataObject.valid = true;
-       return dataObject;
-    }else{
-        errorObject.valid = false;
-      return errorObject;
-    }
-  }
+    // Object YES
+    //
+    const markup = `${item.todo}     ${item.category}    ${item.time}`
+    console.log(markup)
+ }
+ 
 
-
-
-     
+ function validateToDo(formData){
+      const toDoObject ={
+          todo: formData.todo.value,
+          category: formData.category.value,
+          time: formData.time.value,
+          valid: true,
+      }
+     return toDoObject
+ }
 })

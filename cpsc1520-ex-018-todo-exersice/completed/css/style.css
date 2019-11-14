@@ -63,22 +63,3 @@ body {
    background:rgb(219, 219, 219);
  }
   
-  
-.field-error{
-  color:tomato;
-  vertical-align: middle;
-  display:flex;
-  margin-top: 0.25rem;
-}
-.error-icon{
-  vertical-align: middle;
-  margin-right: 0.25rem;
-  width: 20px;
-}
-.field-error span{
- font-size: 14px;
-  color:red;
-}
-.hidden{
-  display:none
-}

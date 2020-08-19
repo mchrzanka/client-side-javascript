@@ -14,26 +14,28 @@
       <div class="component">
         <aside class="card">
           <header class="card-header">
-            <h2>To Do List</h2>
+            <h2>Gift List</h2>
           </header>
           <div class="card-body">
             <form   class="to-do">
             <div class="control to-do">
-              <label>Enter To Do</label>
-              <input id="todo" type="text" placeholder="search term" value="make coffee" />
+              <label>Who's Gift For</label>
+              <input id="todo" type="text" placeholder="search term" value="sister" />
             </div>
 
             <div class="control to-do">
+               <label for="category">Category</label>
               <select  id="category">
-                <option value="">select category</option>
-                <option value="school" >school</option>
-                <option value="household" selected>household</option>
+                <option value="">select budget type</option>
+                <option value="family" selected >family</option>
+                <option value="friend" >friend</option>
+                <option value="other">other</option>
               </select>
             </div>
 
             <div class="control to-do">
-              <label>Time in 1/4 hour increments</label>
-              <input id="time" type="number" step="0.15" value="1.15"/>
+              <label>How much to do you want to spend</label>
+              <input id="time" type="number" step="5" value="5.00"/>
             </div>
 
             <div class="control">
@@ -43,15 +45,29 @@
           </form>
         
         </aside>
-        <aside class="todos">
+        <aside class="todo-view todos">
           <header>
             <h2>To Do List</h2>
           </header>
-        <table class="todo-display">
+
+          
+        <table >
+          <thead>
+           <tr><th>Name</th><th>Category</th><th class="total-time">Expense</th><th> </th> </tr>
+          </thead>
+          <tbody class="todo-display">
+
+          </tbody>
+       <thead>
+           <tr><th> </th><th colspan="3" class="total-cost">Total Cost:<span>$0.00</span> </th></tr>
+          </thead>
           
         </table>
+  
+    
         </aside>
       </div>
+        
     </main>
  
     <script src="js/main.js" async></script>

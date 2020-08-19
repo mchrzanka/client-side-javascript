@@ -37,9 +37,10 @@ For the purposes of this class and throughout the semester always add the script
 ## JavaScript DOM Selection Methods
  Take time to practice selecting elements from the DOM. With practice you will see how easy it is. With a little practice you will find that one or more of the selection methods make sense to you. Many newcomers gravitate to using the querySelector method as it uses css to make the selection from the DOM. Be comfortable using all of the DOM   selector  methods because there are cases when one type of selector is more appropriate in a given coding condition.
  
-+ [getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName)
-+ [getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByClassName)
 + [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
++ [getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByClassName)
++ [getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName)
++ [getElementsByName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByName)
 + [querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector)
 + [querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll)
 

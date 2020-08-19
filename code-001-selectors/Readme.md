@@ -40,7 +40,7 @@ For the purposes of this class and throughout the semester always add the script
 + [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 + [getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByClassName)
 + [getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName)
-+ [getElementsByName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByName)
++ [getElementsByName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName)
 + [querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector)
 + [querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll)
 

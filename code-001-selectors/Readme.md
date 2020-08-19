@@ -1,16 +1,81 @@
-# JavaScript DOM Selectors
  
-### DOM selectors
+ 
+# Selecting Elements From Your HTML Page
+One of the most important skills that you need to develop early is the ability to use JavaScript to select an HTML element or group of elements. JavaScript gives you five build in methods to accomplish this. Just as it is important to know how to select an element it is equally important for you to remember what type of data each of the five methods returns to your code.
+ <br/>
+ <br/>
+ <br/>
 
-Selectors allow you to grab a piece or pieces of markup from the html page your working with. In Javascript we refer to elements or tags as nodes. So were slecting a node or group of nodes from the DOM using the following Javascript methods.
+ ## Before You Start Attach Your JavaScript File Correctly
+For the purposes of this class and throughout the semester always add the script tag that attaches your JS file to the HTML page before the closing HTML Tag.
 
-+ getElementsByTagName()
-+ getElementsByClassName()
-+ getElementById()
-+ querySelector()
-+ querySelectorAll()
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Page Title Here</title>
+ 
+</head>
+<body>
+ 
+<!--
+    *
+   Place your script at the bottom of the page after the close </body> tag to allow the DOM (page elements) to render before selecting them with code.
+    * 
+-->
+</body>
+<script src="js/main.js"></script>
+</html>
 
-In CPSC1520 your more than likely to gravitate to using querySelector(). However you need to be aware of all of the DOM level selector becaues there are cases when one type of selector is more apropriate for a given coding condition.
+```
+  <br/>
+ <br/>
+ <br/>
+
+## JavaScript DOM Selection Methods
+ Take time to practice selecting elements from the DOM. With practice you will see how easy it is. With a little practice you will find that one or more of the selection methods make sense to you. Many newcomers gravitate to using the querySelector method as it uses css to make the selection from the DOM. Be comfortable using all of the DOM   selector  methods because there are cases when one type of selector is more appropriate in a given coding condition.
+ 
++ [getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName)
++ [getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByClassName)
++ [getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
++ [querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector)
++ [querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll)
+
+ <br/>
+ <br/>
+ <br/>
+ 
+# Exercise
+Using the starting file from this folder answer the following questions.
+
+```text
+1. Select all the header elements from the HTML document and log the output to the console. 
+     ✔︎ What is the return type of the selector that you used
+```
+<br/>
+<br/>
+
+```text
+2. Select the element with the id attribute of napsac using the method getElementById(). 
+     ⚙︎ What is the return type of the selector that you used
+     ⚙︎ Does it work
+```
+<br/>
+<br/>
+
+```text
+3. Select the element with the class branding using the method getElementByClassName(). 
+     ⚙︎ What is the return type of the selector.
+         ♳HTMLCollection
+         ♳Element
+         ♳NodeList
+     ⚙︎ Does it work
+```
+
+
 
 
 ### Resources

@@ -20,16 +20,15 @@ For the purposes of this class and throughout the semester always add the script
  
 </head>
 <body>
- 
-<!--
+<!-- 
     *
-   Place your script at the bottom of the page after the close </body> tag to allow the DOM (page elements) to render before selecting them with code.
-    * 
+    we place our script at the bottom of the page to allow the DOM (page elements) 
+    to load so we can then in turn select them.
+    *
 -->
-</body>
 <script src="js/main.js"></script>
+</body>
 </html>
-
 ```
   <br/>
  <br/>

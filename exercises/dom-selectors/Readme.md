@@ -79,6 +79,7 @@ Using the starting file from this folder answer the following questions.
 
 
 ### Resources
+:poop:The Net Ninja [DOM](https://www.youtube.com/watch?v=FIORjGvT0kk)
 
-[selectors explained medium artice](https://blog.bitsrc.io/dom-selectors-explained-70260049aaf0)
+📑 Using Selectors[Medium Article](https://blog.bitsrc.io/dom-selectors-explained-70260049aaf0)
  

@@ -1,3 +1,9 @@
 # VSCode Extensions For JavaScript Developers.
+I am including some of my favorite vscode extensions when developing JavaScript for the browser. I have split them up in terms of use. You don't need to install them all. Check them out if you don't like them then you can uninstall the extension.
 
-<img src="https://esbenp.gallerycdn.vsassets.io/extensions/esbenp/prettier-vscode/5.1.3/1593711167065/Microsoft.VisualStudio.Services.Icons.Default" style="width:40px; vertical-align:middle;"> Prettier VSCode Extension
+ 
+- [Prettier-Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Liver Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [htmltagwrap](https://marketplace.visualstudio.com/items?itemName=bradgashler.htmltagwrap)
+- [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [npm](https://marketplace.visualstudio.com/items?itemName=eg2.vscode-npm-script)

@@ -37,7 +37,8 @@ Create an HTML file called index.html and a javascript file called console.js. L
  ### Exericse
 Open your browser of choice. Each browser has its own set of developer tools. Learn how to open and close the developer console using the quick key combination for the browser you like to work with. Once you have the hand of opening and closing the browser dev tools open the consle and use the console.log(), console.clear(), console.(warn), console.error() methods. Remember that text goes between the brackets and any text you type should be inserted using single quotes.
 ```text
-Is there a quicker way to clear the console inside the dev tools. Have you explored the options your browser provides for the console tab?
+Is there a quicker way to clear the console inside the dev tools. 
+Have you explored the options your browser provides for the console tab?
 ```
  
  

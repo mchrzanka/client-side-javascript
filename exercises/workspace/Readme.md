@@ -22,7 +22,31 @@ Folder contains the files reboot.css style.css and ui.css. Only edit the style.c
 ```
 
 ## fonts ##
-Contains the google font poppins used in the ui.css file. Attached using @font-face.
+Contains the google font poppins used in the ui.css file and attached using @font-face with the display css property set to auto. Base font for the whole workspace.
+```bash
+./font
+└── poppins
+    ├── poppins-v12-latin-200.eot
+    ├── poppins-v12-latin-200.svg
+    ├── poppins-v12-latin-200.ttf
+    ├── poppins-v12-latin-200.woff
+    ├── poppins-v12-latin-200.woff2
+    ├── poppins-v12-latin-600.eot
+    ├── poppins-v12-latin-600.svg
+    ├── poppins-v12-latin-600.ttf
+    ├── poppins-v12-latin-600.woff
+    ├── poppins-v12-latin-600.woff2
+    ├── poppins-v12-latin-700.eot
+    ├── poppins-v12-latin-700.svg
+    ├── poppins-v12-latin-700.ttf
+    ├── poppins-v12-latin-700.woff
+    ├── poppins-v12-latin-700.woff2
+    ├── poppins-v12-latin-regular.eot
+    ├── poppins-v12-latin-regular.svg
+    ├── poppins-v12-latin-regular.ttf
+    ├── poppins-v12-latin-regular.woff
+    └── poppins-v12-latin-regular.woff2
+ ```
 
 ## img ##
 Folder container for any image assets you would like to add.

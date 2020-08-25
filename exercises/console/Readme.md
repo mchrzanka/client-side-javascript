@@ -1,11 +1,15 @@
  
 # Using The Console
-When you start out using JavaScript a good place to start is using the Browser Developer tools. Start by learning how to open and close the javasceript console.
+When starting out using JavaScript it is a good idea to get the hang of your browsers Developr Tools. Inside the browser developer tools you will find a javascript console. Start by learning how to open and close the javasceript console.
 
 <br/>
 
 ## Learn How To  ##
 - [open and close console](https://developers.google.com/web/tools/chrome-devtools/console/reference#panel)
+```text
+ What is the short to open the browser dev tools for your favorite browser?
+
+```
 
 <br/><br/>
 

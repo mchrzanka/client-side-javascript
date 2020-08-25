@@ -31,7 +31,7 @@ The resource links are to the JavaScript Essential Training course on Linkedin L
 
 <br/><br/>
 
-### Exercises
+### Exercise
 Create an HTML file called index.html and a javascript file called console.js. Link the javascript file to the html file and using the console method consele.log() log out to the console the message "javascript file is attached to the html file"
 
  ### Exericse

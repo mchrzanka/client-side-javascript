@@ -7,7 +7,7 @@ When starting out using JavaScript it is a good idea to get the hang of your bro
 ## Learn How To  ##
 - [open and close console](https://developers.google.com/web/tools/chrome-devtools/console/reference#panel)
 ```text
- What is the short to open the browser dev tools for your favorite browser?
+ What is the keyboard short cut to open the browser dev tools for your favorite browser?
 
 ```
 

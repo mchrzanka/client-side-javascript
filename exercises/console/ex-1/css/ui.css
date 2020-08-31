@@ -82,27 +82,34 @@ body {
   line-height: 1.5;
   color: #1b2229;
 }
+
+ 
 /* 
  Page Header
 */
 .page-header {
-  text-align: center;
+  display:flex;
+  align-items: center;
   box-shadow: 0 0 5px 0 rgb(221, 221, 221);
-  padding: 0.25rem 1rem;
   position: relative;
+  z-index: 3;
 }
 
-.page-header img {
-  width: 3rem;
-}
-.page-header h1 {
+.page-header h1{
+  flex-grow:1;
+  text-align: center;
   color: #c1c1c1;
 }
-
-main {
-  margin: 0 auto;
-  width: 320px;
+ 
+.branding{
+  padding: 0.25rem 0.25rem 0.25rem 2rem;;
+  width: 289px;
 }
+.branding img {
+  width: 3rem;
+}
+ 
+ 
 
 /* 
   UI Cards
@@ -153,8 +160,9 @@ main {
 .sidebar {
   width: 289px;
   height: 100vmax;
-  background: rgba(241, 241, 241, 0.25);
-  padding: 2rem 1rem;
+  background: rgba(247, 247, 247, 0.2);
+  padding: 2rem 1rem 2rem 2rem;
+  box-shadow: 5px   -0 5px -5px rgb(221, 221, 221);
 }
 /* 
   

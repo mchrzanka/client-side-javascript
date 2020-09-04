@@ -13,7 +13,6 @@ Variables are common to pretty much all programming languages. A variable is a c
 - write and assign basic variable data types string, number, boolean.
 
  | let keyword |  variable name | assignment operator | value |
-|------------|----------------|-----------------------------|-------|
 |     :---:      |     :---:      |     :---:      |      :---:      | 
 | let  |  taxRate |  =    |  false |
 

@@ -13,9 +13,8 @@ Variables are common to pretty much all programming languages. A variable is a c
 - write and assign basic variable data types string, number, boolean.
 ```pre
 // let variable declaration
-//       
-          1                 2                 3           4
-         let         isLoggedIn        =         false
+//  1                 2                 3           4
+let         isLoggedIn        =         false
 
 /*
 Vocabulary

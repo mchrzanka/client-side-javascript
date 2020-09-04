@@ -14,31 +14,22 @@ Variables are common to pretty much all programming languages. A variable is a c
 
  | let keyword |  variable name | assignment operator | value |
 |     :---:      |     :---:      |     :---:      |      :---:      | 
-| let  |  taxRate |  =    |  false |
+| let  |  taxRate |  =    |  0.25 |
 
 
 ```javascript
-// let variable declaration
-    1           2                   3           4
-    let     isLoggedIn      =        false;
-
-/*
-Vocabulary
-1. let statement a variable that can change value
-2. variable name
-3. assignment operator
-4. variable value
-*/
- 
+// Variable Declaration try it in the console
+    let  isLoggedIn  =  0.25;
+    console.log(`tax rate is ${taxRate}%`)
 ```
 
 ```javascript
 // let variable declaration
 let isLoggedIn = false
-console.log(isLoggedIn)
+console.warn(`Sorry But You Are Not Logged In ${isLoggedIn}`)
 
 isloggedIn = true;
-console.log(isLoggedIn)
+console.warn(`Your loggin status is now ${isLoggedIn}`)
 ```
 
 ```javascript

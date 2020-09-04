@@ -1,0 +1,30 @@
+.site-nav{
+    padding: 1rem;
+    box-shadow: 0 0 5px 0 rgb(116, 121, 124);
+}
+
+.shipping-calculator{
+    padding: 3rem;
+    display:flex;
+    flex-direction: column;
+     align-items:center;
+}
+.weight{
+    padding: 1rem;
+    border-radius: 3px;
+    border:none;
+    box-shadow: 0 0 3px 0 rgb(116, 121, 124);
+    margin-bottom: 1rem;
+}
+.calculate{
+    border:none;
+    background:transparent;
+    box-shadow: 0 0 3px 0 rgb(116, 121, 124);
+    padding: 0.5rem  1rem;
+}
+
+.cost{
+    color:tomato;
+    font-size: 2rem;
+   
+}

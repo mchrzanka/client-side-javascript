@@ -24,7 +24,7 @@ This folder includes exercises and documentation on learning JavaScript syntax.
 <br/>  
 
 ## Video Resources  
-    [Become A Front End Developer](https://www.linkedin.com/learning/paths/become-a-front-end-web-developer?u=2109516)
+[Become A Front End Developer](https://www.linkedin.com/learning/paths/become-a-front-end-web-developer?u=2109516)
 
 <br/>
 <br/>

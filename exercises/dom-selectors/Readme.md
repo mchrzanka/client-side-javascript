@@ -68,18 +68,17 @@ Using the starting file from this folder answer the following questions.
 
 ```text
 3. Select the element with the class branding using the method getElementByClassName(). 
-     ✔︎ What is the return type of the selector.
-         ♳HTMLCollection
-         ♳Element
-         ♳NodeList
-     ✔︎ Does it work
+     ✔︎  What is the return type of the selector.
+            HTMLCollection
+            Element
+            NodeList
+     ✔︎  Does it work
 ```
+ 
 
 
+## Resources
+:cool: :poop:The Net Ninja [DOM](https://www.youtube.com/watch?v=FIORjGvT0kk)
 
-
-### Resources
-:cool::poop:The Net Ninja [DOM](https://www.youtube.com/watch?v=FIORjGvT0kk)
-
-:cool::poop: Using Selectors[Medium Article](https://blog.bitsrc.io/dom-selectors-explained-70260049aaf0)
+:cool: :poop: Using Selectors[Medium Article](https://blog.bitsrc.io/dom-selectors-explained-70260049aaf0)
  

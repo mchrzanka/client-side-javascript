@@ -1,6 +1,8 @@
 # CPSC1520 What You Need To Start Coding
 All you need to start developing JavaScript is a code editor, a browser and a great idea. I often say that choosing a code editor is a very flippant decision for most developers. If you become bitten by the JavaScript bug you will probably spend more time with your code editor than your friends and family. So you better choose wisely. Your editor should be a comfortable space that allows you to perform tasks effectively and efficiently.	
 
+I have provided you with a complete list of workspace and tooling preferences that I like to use when developing client side JavaScirpt you can [find it on github here](https://github.com/dominait/client-side-javascript/tree/master/workspace)
+
 
 ## Popular Editors   
 - [VSCode](https://code.visualstudio.com/download)  

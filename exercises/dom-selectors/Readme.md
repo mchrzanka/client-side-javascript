@@ -61,7 +61,7 @@ Using the starting file from this folder answer the following questions.
 ```text
 2. Select the element with the id attribute of napsac using the method getElementById(). 
      ✔︎ What is the return type of the selector that you used
-     ✔︎Does it work
+     ✔︎ Does it work
 ```
 <br/>
 <br/>
@@ -78,7 +78,7 @@ Using the starting file from this folder answer the following questions.
 
 
 ## Resources
-:cool: :poop:The Net Ninja [DOM](https://www.youtube.com/watch?v=FIORjGvT0kk)
+:cool: :poop: The Net Ninja [DOM](https://www.youtube.com/watch?v=FIORjGvT0kk)
 
 :cool: :poop: Using Selectors[Medium Article](https://blog.bitsrc.io/dom-selectors-explained-70260049aaf0)
  

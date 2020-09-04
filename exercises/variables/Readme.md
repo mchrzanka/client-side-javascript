@@ -12,10 +12,9 @@ Variables are common to pretty much all programming languages. A variable is a c
 - use const keyword
 - write and assign basic variable data types string, number, boolean.
 
-| let keyword  | variable name | variable name | variable name |
-| ------------- | ------------- || ------------- | ------------- |
-| let | taxtRate  | let | =  | false|
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+ | javascript |  Descriptions |
+|------------|----------------|
+| contents | Descriptions|
 
 
 ```javascript

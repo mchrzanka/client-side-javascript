@@ -16,9 +16,11 @@ Variables are common to pretty much all programming languages. A variable is a c
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
+
+
 ```javascript
 // let variable declaration
-//  1                 2                 3           4
+//  1      2                 3           4
 let         isLoggedIn        =         false
 
 /*

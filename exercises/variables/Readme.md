@@ -14,6 +14,7 @@ Variables are common to pretty much all programming languages. A variable is a c
 
  | let keyword |  variable name | assignment operator | value |
 |------------|----------------|-----------------------------|-------|
+|     :---:      |     :---:      |     :---:      |      :---:      | 
 | let  |  taxRate |  =    |  false |
 
 

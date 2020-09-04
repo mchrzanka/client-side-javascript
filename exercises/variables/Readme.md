@@ -11,10 +11,11 @@ Variables are common to pretty much all programming languages. A variable is a c
 - use let keyword
 - use const keyword
 - write and assign basic variable data types string, number, boolean.
-```javascript
+```pre
 // let variable declaration
-//       1               2                  3         4
-         let         isLoggedIn       =      false
+//       
+          1                 2                 3           4
+         let         isLoggedIn        =         false
 
 /*
 Vocabulary

@@ -1,6 +1,8 @@
 # Client Side Javascript  
 This repo contains the exercise files for learning how to write effective JavaScript solutions for web applications. The focus of the course is on developing front end user interface components using HTML CSS and JavaScript.
-
+<br/>
+ <hr>
+<br/>
 ```bash
 ./
 ├── challanges
@@ -18,11 +20,17 @@ Folder contains help files to setup and organize you development works space. Yo
 __crackcode__  
 This is a very lightweight framework that you can start at the begining of any simple web application. You will find links to additional starter kits in the included readme file.  
 
-__exercises__  
+__exercises__ 
 This folder includes exercises and documentation on learning JavaScript syntax.  
-
+<br/>
+ <hr>
+<br/>
 ## Video Resources
 [Become A Front End Developer](https://www.linkedin.com/learning/paths/become-a-front-end-web-developer?u=2109516)
+
+<br/>
+ <hr>
+<br/>
 
 ## Documentation
 [Front End Web Developer](https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer)  

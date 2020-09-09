@@ -104,7 +104,7 @@ body {
  
 .branding{
   display:flex;
-  align-items: center;  
+  align-items: center; `
 }
 .branding img {
   height: 2.8rem;

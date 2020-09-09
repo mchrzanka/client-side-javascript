@@ -4,7 +4,7 @@ This repo contains the exercise files for learning how to write effective JavaSc
 ```bash
 ./
 ├── challanges
-├── client-side-tooling
+├── resources
 ├── crackcode
 └── exercises
 ```
@@ -12,7 +12,7 @@ This repo contains the exercise files for learning how to write effective JavaSc
 __challanges__  
 Folder contains additional exercises and challanges to help you perfect your UI development skills. 
 
-__client-side-toolling__  
+__resources__  
 Folder contains help files to setup and organize you development works space. You will find optimization techniques, deployment stratagies and configuration files for common web application development tools.  
 
 __crackcode__  

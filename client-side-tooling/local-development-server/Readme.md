@@ -1,1 +1,0 @@
-# Setting Up VSCode For Client Side JavaScript

@@ -1,1 +1,0 @@
-# Useful Browser Extensions for Chrome and FireFox

@@ -1,2 +1,0 @@
-# How To Use Gulp To Execute Tasks
-[Gulp ](https://gulpjs.com/docs/en/getting-started/quick-start)is a task runner that helps us when doing client side development to automate slow, repetitive workflows and compose them into efficient build pipelines.

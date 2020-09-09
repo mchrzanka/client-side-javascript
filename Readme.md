@@ -3,10 +3,9 @@ This repo contains the exercise files for learning how to write effective JavaSc
  
 ```bash
 ./
-├── challanges
-├── resources
 ├── crackcode
-└── exercises
+├── resources
+├── syntax
 ```
 
 __challanges__  

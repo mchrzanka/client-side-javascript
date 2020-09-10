@@ -13,7 +13,7 @@ It’s important to have a comfortable and streamlined workflow when sitting dow
 ```
 
 ## css ##
-Reboot is the minicssreset by Jeremy Thomas  [available for download here](https://jgthms.com/minireset.css/). I prefer to start all UI Development with all margin padding striped out and with all elements having the same font size and line height. Styles.css is for you to write your own custom developer styles.
+Reboot is the minicssreset by Jeremy Thomas  [available for download here](https://jgthms.com/minireset.css/). I prefer to start all UI Development with all margin padding striped out and with all elements having the same font size and line height. The styles.css file is you're custom developer styles.
 ```bash
 ./css
 ├── reboot.css

@@ -3,9 +3,11 @@ This repo contains the exercise files for learning how to write effective JavaSc
  
 ```bash
 ./
+├── challanges
+├── classes
 ├── crackcode
-├── resources
-├── syntax
+└── resources
+├── Readme.md
 ```
 
 __challanges__  
@@ -17,10 +19,20 @@ Folder contains help files to setup and organize you development works space. Yo
 __crackcode__  
 This is a very lightweight framework that you can start at the begining of any simple web application. You will find links to additional starter kits in the included readme file.  
 
-__exercises__ 
-This folder includes exercises and documentation on learning JavaScript syntax.  
+__classes__ 
+This folder includes exercises and documentation on learning JavaScript syntax. Items are ordered by week and by class.  
+
+```bsh
+./week-001
+├── class-1
+└── class-2
+└── class-3
+```
 <br/>
 <br/>  
+
+ __resources__  
+ Aditional material that you may find helpful in your production workflow.  
 
 ## Video Resources  
 [Become A Front End Developer](https://www.linkedin.com/learning/paths/become-a-front-end-web-developer?u=2109516)

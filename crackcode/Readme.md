@@ -13,52 +13,43 @@ It’s important to have a comfortable and streamlined workflow when sitting dow
 ```
 
 ## css ##
-Folder contains the files reboot.css style.css and ui.css. Only edit the style.css file to add your custom developer styles.
+Reboot is the minicssreset by Jeremy Thomas  [available for download here](https://jgthms.com/minireset.css/). I prefer to start all UI Development with all margin padding striped out and with all elements having the same font size and line height. Styles.css is for you to write your own custom developer styles.
 ```bash
 ./css
 ├── reboot.css
 ├── style.css
-└── ui.css
 ```
 
 ## fonts ##
-Contains the google font poppins used in the ui.css file and attached using @font-face with the display css property set to auto. Base font for the whole workspace.
+Contains several san-serif fonts that I use for front end UI Development. Each font has a file called @font-face.css which has the @font-face rule for a particular font style you wish to use. Just copy and paste the @font-face rule into your styles.css.
 ```bash
-./font
-└── poppins
-   ├── poppins-v12-latin-200.eot
-   ├── poppins-v12-latin-200.svg
-   ├── poppins-v12-latin-200.ttf
-   ├── poppins-v12-latin-200.woff
-   ├── poppins-v12-latin-200.woff2
-   ├── poppins-v12-latin-600.eot
-   ├── poppins-v12-latin-600.svg
-   ├── poppins-v12-latin-600.ttf
-   ├── poppins-v12-latin-600.woff
-   ├── poppins-v12-latin-600.woff2
-   ├── poppins-v12-latin-700.eot
-   ├── poppins-v12-latin-700.svg
-   ├── poppins-v12-latin-700.ttf
-   ├── poppins-v12-latin-700.woff
-   ├── poppins-v12-latin-700.woff2
-   ├── poppins-v12-latin-regular.eot
-   ├── poppins-v12-latin-regular.svg
-   ├── poppins-v12-latin-regular.ttf
-   ├── poppins-v12-latin-regular.woff
-   └── poppins-v12-latin-regular.woff2
+./fonts
+├── neue
+├── noto
+├── open_sans
+├── poppins
+├── product
+└── roboto    
 ```
 
 ## img ##
-Folder container for any image assets icons contain svg icon artwork that you may want to use and ui has the image assets used inside the html page.
+Folder constains some icons that are useful when building UI components you can add more from any of the sites below. Most of the icons sets allow you to download all the icons I would caution you agains that as you will spend more time deleting icons than its worth. Most of the icon sets are on github and you can get them when  you need them.  
+
+- [Ionic Icons](https://ionicons.com/)  
+- [Material Icons](https://material.io/resources/icons/?style=baseline)  
+- [Font Awsome](https://fontawesome.com/)  
+- [Flat Icon](https://www.flaticon.com/)
+- [Fontisto](https://fontisto.com/)
+- [Best Free Sets For Developers](https://medium.com/@GrayGrids/30-best-free-icon-packs-for-web-designers-2f2317ceaff9)  
+
 ```bash
 ./img
   ├── icons
-  ├── ui
 ```
 
 
 ## js ##
-This folder contains app.js which is linked into the html document at the foot of the page before the closing html tag.
+This folder contains index.js which is linked into the html document at the foot of the page. You can find the script tag at the bottom of the index.html page just before the closing html tag. This file is where we will develop your JavaScript
 
 ```bash
 ./js

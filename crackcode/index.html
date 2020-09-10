@@ -6,38 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Crack Code JavaScript</title>
     <link rel="stylesheet" href="css/reboot.css" />
-    <link rel="stylesheet" href="css/ui.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Do Nor Remove The Page Header -->
-    <header class="page-header">
-      <div class="branding">
-        <img
-          class="brand-image"
-          src="img/ui/crack-code-logo.svg"
-          alt="cartoon character in dark rimmed glasses"
-        />
-        <div class="brand-copy">
-          <h1>CRACK CODE<span>javascript boilerplate</span></h1>
-        </div>
-      </div>
 
-      <div class="user-options">
-        <ul>
-         
-          <li class="icon icon-md">
-            <img src="img/icons/user.svg" alt="user profile" />
-          </li>
-        </ul>
+
+
+    <!-- 
+      ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+      DELETE THE FOLLOWING MARKUP AND STYLES
+      START FROM  FROM HERE <!--
+     ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+    -->
+    <style>
+      header {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      div {
+        width: 290px;
+        text-align: center;
+      }
+      img:nth-child(1) {
+        width: 25%;
+      }
+    </style>
+    <header>
+      <div>
+        <img src="img/icons/crack-code-logo.svg" alt="" />
+        <img src="img/icons/crack-code-text.svg" alt="" />
       </div>
     </header>
-  
-    <main>
- 
-   
+   <!-- 
+      ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+      START FROM  FROM HERE  TO THE -- > BELOW
+     ••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••
+    -->
 
-    
-    </main>
+
+
+
+
+
+
+
+
+
+
   </body>
-  <script src="js/app.js"></script>
+  <!-- 
+   Link your javascript at the bottom of the page just before closing the html element.
+   We do this so that all the elements on the page load before the script is loaded.
+   That way we are sure that all of the DOM (html elements on the page) are
+   available to our javascript code
+   -->
+  <script src="js/index.js"></script>
 </html>

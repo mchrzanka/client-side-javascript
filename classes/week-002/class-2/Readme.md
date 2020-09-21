@@ -9,6 +9,6 @@ In this class you will learn how to create a repository in github and integrate 
 
   
 ## Video Files
-You can't download these two videos shown here.  
-You will find them in your Microsoft Teams files folder.
+Creating Git Repo.
+Managing Git From VSCode.
  

@@ -1,12 +1,16 @@
 # CPSC1520 Client Side JavaScript
 
-__Topics__
+__House Cleaning Topics__
 - Course Outline.
 - Assignemts.  
 - Moodle.
 - Reading Assignments.
 - Markdown Basics
 
+__JavaScript Topics__
+- Attaching JavaScript to a web document.
+- variables let and const and naming best practices
+- DOM selectors   querySelector and querySelectorAll();
 
 __Student To Do__
 - Set up a github account.

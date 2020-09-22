@@ -1,30 +1,27 @@
-/* 
-      Console
-      Variables
-      DOM selection
+//CTRL + ?
 
-    statement
-    object .   method()  -- work
-    document    querySelector()
+/*
+ALT + SHIFT + A
 
-    let - change data type
-    const - will not change
+console.log()
+console.table()
+console.warn()
+console.error()
+console.clear()
 
+Javascript
+. syntax
+
+Example:
+Object  . method/property
+document.querySelector("img") 
+
+Select the second image and log it to the console. 
 */
 
- const shippingWeight = document.querySelector('idsfsdfmg')
- console.log(shippingWeight)
+let shippingWeight = document.querySelector('#weight');
+console.log(shippingWeight.value);
 
- //shippingWeight = document.querySelector("button")
-
-//  const images = document.querySelectorAll('.nodslfjsdlf')
-//  console.log(images)
-
-var jimo = "fasdfsdf" * 100
-console.log(jimo)
- 
-
-
- 
-
- 
+/*const calculateButton=document.querySelector('label')
+calculateButton.style.backgroundColor="black" 
+console.log(calculateButton)*/
